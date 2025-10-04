@@ -1,0 +1,5 @@
+{% for livro in livros %}
+    {{ livro.titulo }}
+{% empty %}
+    <p>Nenhum livro disponível.</p>
+{% endfor %}
